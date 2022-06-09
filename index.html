@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <!-- add extra scripts below -->
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="helperFunctions.js"></script>
+
+    <script src="tools/freehandTool.js"></script>
+    <script src="tools/lineToTool.js"></script>
+    <script src="tools/sprayCanTool.js"></script>
+    <script src="tools/mirrorDrawTool.js"></script>
+    <script src="tools/bucketTool.js"></script>
+    <script src="tools/shapeTool.js"></script>
+    <script src="tools/eraserTool.js"></script>
+    <script src="tools/autoDrawTool.js"></script>
+    <script src="tools/textEditorTool.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div class="wrapper">
+      <div class="box header">My Drawing App
+
+        <button id="clearButton">Clear</button>
+        <button id="saveImageButton">Save Image</button>
+      </div>
+      <div class="box" id="sidebar"></div>
+      <div id="content"></div>
+      <div class="box colourPalette"></div>
+      <div class="box options"></div>
+	</div>
+  </body>
+</html>
